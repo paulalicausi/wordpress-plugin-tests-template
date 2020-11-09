@@ -1,0 +1,25 @@
+{
+  "name": "wordpress-plugin-tests-template-master",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Soluto/wordpress-plugin-tests-template.svg?branch=master)](https://travis-ci.org/Soluto/wordpress-plugin-tests-template)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulalicausi/wordpress-plugin-tests-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulalicausi/wordpress-plugin-tests-template/issues"
+  },
+  "homepage": "https://github.com/paulalicausi/wordpress-plugin-tests-template#readme",
+  "devDependencies": {
+    "qunit": "^2.12.0"
+  }
+}
