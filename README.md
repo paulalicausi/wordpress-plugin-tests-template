@@ -13,7 +13,9 @@ To learn more about this template in this [blog post](https://blog.solutotlv.com
 
 ## How to run the tests?
 * `docker-compose up --build -d`
-* `docker-compose run wordpress vendor/bin/phpunit`
+* `npm install`
+* To run PHP tests `docker-compose run wordpress vendor/bin/phpunit`
+* To run JS tests `npm test`
 
 And watch the tests running.
 To clean up, run: `docker-compose down`.
