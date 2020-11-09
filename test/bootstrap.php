@@ -19,7 +19,7 @@ require_once dirname( dirname( __FILE__ ) ) . '/vendor/autoload.php';
  */
 function _manually_load_plugin() {
 	//TODO: replace <plugin-sample> with your plugin name
-	require dirname( dirname( __FILE__ ) ) . '/src/plugin-sample.php';
+	require dirname( dirname( __FILE__ ) ) . '/src/wazuh-update-links-in-posts/wazuh-update-links-in-posts.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 

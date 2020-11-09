@@ -4,7 +4,7 @@ services:
   wordpress:
     volumes:
       - ./src:/wordpress/src
-      - ./tests:/wordpress/tests
+      - ./test:/wordpress/test
     build:
       context: .
       args:
